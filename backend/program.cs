@@ -6,5 +6,9 @@ using System;
         string имя = Console.ReadLine();
 
         Console.WriteLine($"Привет, {имя}!");
+
+        Console.WriteLine($"Сегодня {DateTime.Now.DayOfWeek}");
+
+        
     }
 }
